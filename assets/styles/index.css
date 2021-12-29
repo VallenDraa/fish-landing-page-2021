@@ -7,12 +7,14 @@
     margin: 0 4rem;
 }
 .page-padding{
-    padding: 1.5rem 4rem;
+    padding: 1rem 4rem;
 }
 
 *{
-    font-family: 'Source Sans Pro', sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* header */
 header p{
     /* font-family: 'Source Sans Pro', sans-serif */
     font-family: 'Patua One', cursive;
@@ -23,16 +25,90 @@ h1,h3,h4,h5{
 }
 
 .header-menu{
-    margin-right: 24px;
-    font-size: 16px;
+    margin-right: 0;
+    font-size: 25px;
     font-weight: 600;
+    padding: 0.3rem 0;
+}
+
+.header-menu > a{
+    padding: 0 0;    
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+.header-menu>a:hover{
+    color: grey;
+}
+
+.header-menu:after{
+    width: 0%;
+}
+.header-menu:hover:after{
+    width: 0%;
+}
+.disable-fixed-sm{
+    position:static;
 }
 
 
 /* swiper css */
+.swiper{
+    cursor: grab;
+}
 
 .swiper-button-prev, .swiper-button-next{
     color: white !important;
     fill: white !important;
     stroke: white !important;
+}
+
+/* media queries */
+
+@media (min-width: 640px){
+    .header-menu{
+        margin-right: 0;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 0.3rem 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .fa-bars{
+        display: none !important;
+    }
+    .fa-times{
+        display: none !important;
+    }
+    .header-menu{
+        margin-right: 24px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .header-menu > a{
+        padding: 10px 10px;
+    }
+    
+    .header-menu:after{
+        width: 0%;
+        margin: auto;
+        display: block;
+        content: "";
+        background-color: rgb(59 130 246);
+        height: 5px;
+        transition: 0.3s;
+    }
+    .header-menu:hover:after{
+        width: 85%;
+    }
+    .header-menu>a:hover{
+        color: black;
+    }
+}
+
+@media (min-height: 640px) {
+    .disable-fixed-sm{
+        position:fixed;
+    }
 }

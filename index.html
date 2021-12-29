@@ -21,113 +21,118 @@
 </head>
 <body>
     <!-- header -->
-    <header class="bg-gradient-to-b from-white to-gray-50 fixed w-full z-50">    
-        <div class="flex items-center justify-between page-padding ">
-            <p class="text-2xl font-black tracking-wide">FishThinks&#153</p>
-            <ul class="flex justify-between items-center">
+    <header class="bg-gradient-to-b from-white to-gray-50 w-full z-50 disable-fixed-sm">    
+        <div class="flex items-center justify-between mx-10 lg:mx-24 xl:mx-40 py-5">
+            <p class="text-xl md:text-2xl font-black tracking-wide">FishThinks&#153</p>
+            <ul class="z-50  duration-500 text-left top-0 right-0 fixed bg-gray-100 shadow-xl h-screen p-5 xl:static xl:p-0 xl:h-full xl:shadow-none xl:bg-white xl:flex xl:justify-between xl:items-center xl:text-center menu" style="left: 100%">
+                <i class="fas fa-times block text-2xl md:text-3xl cursor-pointer w-1/3 hover:text-gray-400 "></i>
                 <li class="header-menu"><a href="">Home</a></li>
                 <li class="header-menu"><a href="">Our Fish</a></li>
                 <li class="header-menu"><a href="">Selections</a></li>
                 <li class="header-menu"><a href="">Contact Us</a></li>
-                <a href="" class="px-8 bg-blue-500 text-white uppercase py-1 ml-3 rounded-md font-bold text-lg">BUY NOW</a>
+                <li>
+                    <a href="" class="xl:mt-0 px-5 sm:px-10 py-2 xl:px-8 xl:py-1 bg-green-500 hover:bg-green-700 text-white uppercase ml-0 xl:ml-3 rounded-md font-bold  sm:text-base md:text-xl lg:text-lg 2xl:text-2xl duration-300 mt-3">BUY NOW</a>                    
+                </li>
             </ul>
+            <i class="fas fa-bars inline text-3xl md:text-4xl cursor-pointer hover:text-gray-400"></i>
         </div>
     </header>
     
 
     <!-- hero -->
     <section class="bg-gray-50">
-        <div class="hero grid grid-cols-2 content-center pt-64 page-margin">
-            <div class="flex flex-col justify-between ">
-                <div>
-                    <h1 class="text-6xl pb-6">THE FRESHEST FISH SUPPLIER IN TOWN</h1>
-                    <p class="text-xl pb-16 max-w-lg">Caught fresh by the local fishermans from the local Marakkash lake this morning, everyday !</p>                    
+        <div class="hero grid grid-cols-1 2xl:grid-cols-2 content-center pt-40 sm:pt-28 2xl:pt-52 pb-52 mx-10 lg:mx-24 xl:mx-40">
+            <div class="flex flex-col justify-between order-2 2xl:order-none">
+                <div class="text-center 2xl:text-left">
+                    <h1 class="text-3xl xl:text-4xl 2xl:text-5xl pb-6 w-full 2xl:w-11/12">THE FRESHEST FISH SUPPLIER IN TOWN</h1>
+                    <p class="mx-auto 2xl:m-0 text-justify text-sm xl:text-base 2xl:text-lg w-11/12 2xl:w-8/12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, placeat nisi veniam nam cupiditate consequuntur?</p>                    
                 </div>
-                <a href="#" class="self-start bg-red-500 text-white uppercase px-40 py-5 rounded-md font-bold text-xl">SHOP NOW !</a>
+                <a href="#" class="mt-5 2xl:m-0 self-center xl:self-start bg-red-500 hover:bg-red-700 text-white uppercase w-full 2xl:w-1/2  text-center py-2 rounded-md font-bold text-base md:text-lg duration-300 shadow-xl">SHOP NOW !</a>
             </div>
-            <img src="https://picsum.photos/500/300?random=2" alt="" class="justify-self-end rounded-lg w-11/12">
+            <img src="https://picsum.photos/500/300?random=2" alt="" class="mb-10 2xl:mb-0 order-1 2xl:order-none justify-self-center xl:justify-self-end rounded-lg w-full shadow-xl">
         </div>
     </section>
 
 
     <!-- Our Fish -->
-    <section class="pt-72 bg-gradient-to-b from-gray-50 to-gray-100">
-        <div class="flex justify-center mb-5">
-            <h3 class="text-4xl border-b-4 border-red-500 inline-block">WHY OUR FISH ?</h3>
+    <section class="pt-24 pb-36 bg-green-200">
+        <div class="flex justify-center mb-9 mx-10 lg:mx-24 xl:mx-40">
+            <h3 class="text-2xl sm:text-4xl border-b-4 border-red-500 inline-block px-2">WHY OUR FISH ?</h3>
         </div>            
-        <div class="mx-40 shadow-xl p-5 rounded-xl border-2 border-gray-200">
+        <div class="mx-10 lg:mx-24 xl:mx-40  shadow-xl p-4 pt-0 rounded-xl bg-white">
             <div class="flex justify-center mb-4">
             </div>
-            <div class="text-3xl grid grid-cols-3 gap-5">
+            <div class="text-3xl grid grid-cols-1 xl:grid-cols-3 gap-5">
                 <!-- Cheapest -->
-                <div class="text-center bg-yellow-200  p-3 rounded-xl">
-                    <i class="fas fa-hand-holding-usd p-2 bg-blue-400 rounded-xl text-white mb-2"></i>
+                <div class="text-center bg-yellow-200 p-4 rounded-l-xl">
+                    <i class="fas fa-hand-holding-usd p-2 bg-blue-400 rounded-xl text-white mb-2 mt-3"></i>
                     <h4 class="text-xl bold mb-2">CHEAPEST</h4>
-                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                    <p class="text-sm text-justify text-gray-800 mb-5 font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
                 </div>
                 <!-- Natural -->
-                <div class="text-center bg-yellow-200 p-3 rounded-xl">
-                    <i class="fas fa-fish p-2 bg-green-400 rounded-xl text-white mb-2"></i>
+                <div class="text-center bg-yellow-200 p-4">
+                    <i class="fas fa-fish p-2 bg-green-400 rounded-xl text-white mb-2 mt-3"></i>
                     <h4 class="text-xl bold mb-2">NATURAL</h4>
-                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                    <p class="text-sm text-justify text-gray-800 mb-5 font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
                 </div>
                 <!-- Locally Sourced -->
-                <div class="text-center bg-yellow-200 p-3 rounded-xl">
-                    <i class="fas fa-map-marked-alt p-2 bg-red-400 rounded-xl text-white mb-2"></i>
+                <div class="text-center bg-yellow-200 p-4 rounded-r-xl">
+                    <i class="fas fa-map-marked-alt p-2 bg-red-400 rounded-xl text-white mb-2 mt-3"></i>
                     <h4 class="text-xl bold mb-2">LOCALLY-SOURCED</h4>
-                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                    <p class="text-sm text-justify text-gray-800 mb-5 font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Selections -->
-    <section class="bg-gray-100 pt-5">
-        <div class="swiper relative">    
+    <section class="bg-gray-100">
+        <div class="swiper relative ">    
             <!-- <div class="flex justify-center mb-5">
                 <h3 class="text-5xl border-b-4 border-red-500 inline-block">OUR PRIZED SELECTIONS</h3>
             </div>    -->
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper relative">
+                <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide text-center bg-red-300 grid grid-cols-2 px-40 py-20 gap-5">
-                        <div class="text-justify flex flex-col justify-around">
-                            <h3 class="text-5xl mb-5 text-white">Red Salmon</h3>
-                            <p class="mb-10 text-xl text-gray-800">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
-                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
-                            <ul class="list-disc pl-4 text-md">
+                    <div class="swiper-slide text-center bg-red-300 grid grid-cols-1 xl:grid-cols-2 px-10 lg:px-24 xl:px-40 py-32 gap-5">
+                        <div class="text-center xl:text-justify flex flex-col justify-around order-2 xl:order-none">
+                            <h3 class=" text-3xl md:text-5xl mb-5">Red Salmon</h3>
+                            <p class="mx-auto xl:m-0 mb-10 xl:text-base 2xl:text-xl text-gray-800 w-4/5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-base md:text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-none xl:list-disc pl-0 xl:pl-4 text-sm md:text-base font-light">
                                 <li>Lorem ipsum dolor sit amet.</li>
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                             </ul>                            
                         </div>
-                        <img src="https://picsum.photos/500/300?random=4" alt="" class="rounded-lg justify-self-end shadow-xl">
+                        <img src="https://picsum.photos/500/300?random=4" alt="" class=" w-full p-2 md:p-4 bg-white rounded-xl shadow-xl order-1 xl:order-none">
                     </div>
-                    <div class="swiper-slide text-center bg-blue-300 grid grid-cols-2 px-40 py-20 gap-5">
-                        <div class="text-justify flex flex-col justify-around">
-                            <h3 class="text-5xl mb-5 text-white">Bluefin Tuna</h3>
-                            <p class="mb-10 text-xl text-gray-800"">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
-                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
-                            <ul class="list-disc pl-4 text-md">
+                    <div class="swiper-slide text-center bg-blue-300 grid grid-cols-1 xl:grid-cols-2 px-10 lg:px-24 xl:px-40 py-32 gap-5">
+                        <div class="text-center xl:text-justify flex flex-col justify-around order-2 xl:order-none">
+                            <h3 class=" text-3xl md:text-5xl mb-5 ">Bluefin Tuna</h3>
+                            <p class="mx-auto xl:m-0 mb-10 xl:text-base 2xl:text-xl text-gray-800 w-4/5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-base md:text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-none xl:list-disc pl-0 xl:pl-4 text-sm md:text-base font-light">
                                 <li>Lorem ipsum dolor sit amet.</li>
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                             </ul>                            
                         </div>
-                        <img src="https://picsum.photos/500/300?random=6" alt="" class="rounded-lg justify-self-end shadow-xl">
+                        <img src="https://picsum.photos/500/300?random=5" alt="" class=" w-full p-2 md:p-4 bg-white rounded-xl shadow-xl order-1 xl:order-none">                 
                     </div>
-                    <div class="swiper-slide text-center bg-yellow-300 grid grid-cols-2 px-40 py-20 gap-5">
-                        <div class="text-justify flex flex-col justify-around">
-                            <h3 class="text-5xl mb-5 text-white">Yellowfin Tuna</h3>
-                            <p class="mb-10 text-xl text-gray-800"">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
-                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
-                            <ul class="list-disc pl-4 text-md">
+                    <div class="swiper-slide text-center bg-yellow-200 grid grid-cols-1 xl:grid-cols-2 px-10 lg:px-24 xl:px-40 py-32 gap-5">
+                        <div class="text-center xl:text-justify flex flex-col justify-around order-2 xl:order-none">
+                            <h3 class=" text-3xl md:text-5xl mb-5">Yellowfin Tuna</h3>
+                            <p class="mx-auto xl:m-0 mb-10 xl:text-base 2xl:text-xl text-gray-800 w-4/5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-base md:text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-none xl:list-disc pl-0 xl:pl-4 text-sm md:text-base font-light">
                                 <li>Lorem ipsum dolor sit amet.</li>
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                             </ul>                            
                         </div>
-                        <img src="https://picsum.photos/500/300?random=5" alt="" class="rounded-lg justify-self-end shadow-xl">
+                        <img src="https://picsum.photos/500/300?random=6" alt="" class=" w-full p-2 md:p-4 bg-white rounded-xl shadow-xl order-1 xl:order-none">                 
                     </div>
                 </div>     
                 <!-- If we need navigation buttons -->
@@ -136,39 +141,133 @@
         </div>
     </section>
 
-    <!-- Our Location -->
-    <section class="bg-gradient-to-b from-gray-100 to-gray-200 pt-44">
-        <div class="grid page-margin">
-            <div>
+
+    <!-- Contact And Location -->
+    <section class="bg-gray-200 pt-28 pb-16">
+        <!-- Map Location {TOP} -->
+        <div class="mx-10 lg:mx-24 xl:mx-40 pb-8 xl:pb-12">
+            <div class="flex justify-center mb-9">
+                <h3 class="text-3xl md:text-4xl border-b-4 border-red-500 inline-block px-2">Store Location</h3>
+            </div>   
+            <div class="p-2 md:p-4  rounded-xl bg-white shadow-xl">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.240682444349!2d107.63308375076956!3d-6.861732769016885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e77f69edf551%3A0x14c495539fc36585!2seFishery%20Technoplex!5e0!3m2!1sid!2sid!4v1640700463215!5m2!1sid!2sid" width="100%" height="610px" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>    
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.240682444349!2d107.63308375076956!3d-6.861732769016885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e77f69edf551%3A0x14c495539fc36585!2seFishery%20Technoplex!5e0!3m2!1sid!2sid!4v1640700463215!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>    
+        <!-- Contact {BOTTOM} -->
+        <div class="grid grid-cols-1 xl:grid-cols-2 mx-10 lg:mx-24 xl:mx-40 gap-x-12">
+            <div class="grid gap-y-9 p-5 xl:p-8 rounded-xl bg-white shadow-xl mb-8 xl:mb-0">
+                <h5 class="text-center text-3xl md:text-4xl">Other Info</h5>
+                <a href="" class="flex text-center xl:text-left flex-col xl:flex-row">
+                    <i class="fas fa-map-marker-alt self-center mb-1 md:mb-0 text-2xl"></i>
+                    <div class="pl-0 xl:pl-3 w-full mx-auto xl:m-0 md:w-1/2 xl:w-4/5 flex flex-col justify-center">
+                        <h5 class="font-bold text-base">Address</h5>
+                        <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo possimus officia aliquam perspiciatis voluptas quae voluptate aliquid aperiam consequatur repellendus.</p>                        
+                    </div>
+                </a>
+                <a href="" class="flex text-center xl:text-left flex-col xl:flex-row">
+                    <i class="fas fa-phone-alt self-center mb-1 md:mb-0 text-lg"></i>
+                    <div class="pl-0 xl:pl-3 w-full xl:w-4/5 flex flex-col justify-center">
+                        <h5 class="font-bold text-base">Telephone</h5>
+                        <p class="text-sm font-light">081234567890</p>                        
+                    </div>
+                </a>
+                <a href="" class="flex text-center xl:text-left flex-col xl:flex-row">
+                    <i class="fab fa-instagram self-center mb-1 md:mb-0 text-xl"></i>
+                    <div class="pl-0 xl:pl-3 w-full xl:w-4/5 flex flex-col justify-center">
+                        <h5 class="font-bold text-base">Social Media</h5>
+                        <p class="text-sm font-light">Instagram: @fishThinks</p>                        
+                    </div>
+                </a>
+                <a href="" class="flex text-center xl:text-left flex-col xl:flex-row">
+                    <i class="fas fa-shopping-cart self-center mb-1 md:mb-0 text-base"></i>
+                    <div class="pl-0 xl:pl-3 w-full xl:w-4/5 flex flex-col justify-center">
+                        <h5 class="font-bold text-base">Online Stores</h5>
+                    <p class="text-sm font-light">Amazon</p>
+                    </div>                        
+                </a>
+            </div>   
+            <form action="" class="grid gap-y-2 p-5 xl:p-8 rounded-xl bg-white shadow-xl">
+                <h5 class="text-center text-3xl md:text-4xl">Contact Us Via E-Mail</h5>
+                <input type="text" placeholder="Name" class="w-full px-2 border-2 border-gray-600 mt-4">
+                <input type="email" placeholder="Email" class="w-full px-2 border-2 border-gray-600">
+                <input type="text" placeholder="Subject" class="w-full px-2 border-2 border-gray-600">
+                <textarea name="" id="" cols="50" rows="10" class="w-full px-2 border-2 border-gray-600 resize-none" placeholder="Message"></textarea>
+                <button class="duration-300 border-2 border-black hover:border-red-600 hover:text-white hover:bg-red-600 py-2 text-lg ">Submit</button>
+            </form>
         </div>
     </section>
+
+
+    <!-- Footer -->
+    <section class="bg-gray-500">
+        <div class=" mx-10 lg:mx-24 xl:mx-40 py-16 text-white">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-y-9 lg:gap-y-0">
+                <!-- Menu -->
+                <div>
+                    <h5 class="uppercase tracking-wider text-base md:text-xl mb-3 text-yellow-300">Menu</h5>
+                    <ul class="grid gap-y-3 md:gap-y-1">
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Home</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Our Fish</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Selections</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Links -->
+                <div>
+                    <h5 class="uppercase tracking-wider text-base md:text-xl mb-3 text-yellow-300">Links</h5>
+                    <ul class="grid gap-y-3 md:gap-y-1">
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Instagram</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Amazon</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Contact</a></li>
+                        <li><a href="" class="w-1/2 block text-sm md:text-base hover:text-black duration-300">Store Location</a></li>
+                    </ul>
+                </div>
+                <!-- Address -->
+                <div class="w-full col-span-2 md:col-span-1 mb-5">
+                    <h5 class="uppercase tracking-wider text-base xl:text-xl mb-3 text-yellow-300">Address</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem saepe quidem beatae quaerat aperiam. Magni veniam harum nihil voluptatibus repudiandae?</p>
+                </div>                
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="mt-6 shadow-lg">
+                <h5 class="uppercase tracking-wider text-base md:text-xl mb-3 text-yellow-300 xl:text-left">Newsletter Subscription</h5>
+                <div>
+                    <input type="email" placeholder="Your E-Mail" class="px-2 py-3 bg-white text-gray-500 w-full">
+                    <button class="duration-300 bg-yellow-300 hover:bg-yellow-400  px-5 py-3 text-black w-full text-xl font-light">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="border-t-2 border-gray-100 pt-5 pb-6">
+            <p class="text-sm md:text-base tracking-wide text-white text-center font-normal">FishThinks&#153 | Copyright 2021 ©. All rights reserved</p>
+        </div>
+    </section>
+
     <!--Swiper JS-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
     const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
-</script>
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
