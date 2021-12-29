@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom utility function */
+.page-margin{
+    margin: 0 4rem;
+}
+.page-padding{
+    padding: 1.5rem 4rem;
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif
+}
+header p{
+    /* font-family: 'Source Sans Pro', sans-serif */
+    font-family: 'Patua One', cursive;
+}
+
+h1,h3,h4,h5{
+    font-family: 'Patua One', cursive;
+}
+
+.header-menu{
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* swiper css */
+
+.swiper-button-prev, .swiper-button-next{
+    color: white !important;
+    fill: white !important;
+    stroke: white !important;
+}

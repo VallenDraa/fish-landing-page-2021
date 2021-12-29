@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/tailwind.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <title>FISH PAGE</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="bg-gradient-to-b from-white to-gray-50 fixed w-full z-50">    
+        <div class="flex items-center justify-between page-padding ">
+            <p class="text-2xl font-black tracking-wide">FishThinks&#153</p>
+            <ul class="flex justify-between items-center">
+                <li class="header-menu"><a href="">Home</a></li>
+                <li class="header-menu"><a href="">Our Fish</a></li>
+                <li class="header-menu"><a href="">Selections</a></li>
+                <li class="header-menu"><a href="">Contact Us</a></li>
+                <a href="" class="px-8 bg-blue-500 text-white uppercase py-1 ml-3 rounded-md font-bold text-lg">BUY NOW</a>
+            </ul>
+        </div>
+    </header>
+    
+
+    <!-- hero -->
+    <section class="bg-gray-50">
+        <div class="hero grid grid-cols-2 content-center pt-64 page-margin">
+            <div class="flex flex-col justify-between ">
+                <div>
+                    <h1 class="text-6xl pb-6">THE FRESHEST FISH SUPPLIER IN TOWN</h1>
+                    <p class="text-xl pb-16 max-w-lg">Caught fresh by the local fishermans from the local Marakkash lake this morning, everyday !</p>                    
+                </div>
+                <a href="#" class="self-start bg-red-500 text-white uppercase px-40 py-5 rounded-md font-bold text-xl">SHOP NOW !</a>
+            </div>
+            <img src="https://picsum.photos/500/300?random=2" alt="" class="justify-self-end rounded-lg w-11/12">
+        </div>
+    </section>
+
+
+    <!-- Our Fish -->
+    <section class="pt-72 bg-gradient-to-b from-gray-50 to-gray-100">
+        <div class="flex justify-center mb-5">
+            <h3 class="text-4xl border-b-4 border-red-500 inline-block">WHY OUR FISH ?</h3>
+        </div>            
+        <div class="mx-40 shadow-xl p-5 rounded-xl border-2 border-gray-200">
+            <div class="flex justify-center mb-4">
+            </div>
+            <div class="text-3xl grid grid-cols-3 gap-5">
+                <!-- Cheapest -->
+                <div class="text-center bg-yellow-200  p-3 rounded-xl">
+                    <i class="fas fa-hand-holding-usd p-2 bg-blue-400 rounded-xl text-white mb-2"></i>
+                    <h4 class="text-xl bold mb-2">CHEAPEST</h4>
+                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                </div>
+                <!-- Natural -->
+                <div class="text-center bg-yellow-200 p-3 rounded-xl">
+                    <i class="fas fa-fish p-2 bg-green-400 rounded-xl text-white mb-2"></i>
+                    <h4 class="text-xl bold mb-2">NATURAL</h4>
+                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                </div>
+                <!-- Locally Sourced -->
+                <div class="text-center bg-yellow-200 p-3 rounded-xl">
+                    <i class="fas fa-map-marked-alt p-2 bg-red-400 rounded-xl text-white mb-2"></i>
+                    <h4 class="text-xl bold mb-2">LOCALLY-SOURCED</h4>
+                    <p class="text-sm text-justify text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum hic, deserunt corporis eaque atque illo libero cumque pariatur quas iusto?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selections -->
+    <section class="bg-gray-100 pt-5">
+        <div class="swiper relative">    
+            <!-- <div class="flex justify-center mb-5">
+                <h3 class="text-5xl border-b-4 border-red-500 inline-block">OUR PRIZED SELECTIONS</h3>
+            </div>    -->
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper relative">
+                    <!-- Slides -->
+                    <div class="swiper-slide text-center bg-red-300 grid grid-cols-2 px-40 py-20 gap-5">
+                        <div class="text-justify flex flex-col justify-around">
+                            <h3 class="text-5xl mb-5 text-white">Red Salmon</h3>
+                            <p class="mb-10 text-xl text-gray-800">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-disc pl-4 text-md">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                            </ul>                            
+                        </div>
+                        <img src="https://picsum.photos/500/300?random=4" alt="" class="rounded-lg justify-self-end shadow-xl">
+                    </div>
+                    <div class="swiper-slide text-center bg-blue-300 grid grid-cols-2 px-40 py-20 gap-5">
+                        <div class="text-justify flex flex-col justify-around">
+                            <h3 class="text-5xl mb-5 text-white">Bluefin Tuna</h3>
+                            <p class="mb-10 text-xl text-gray-800"">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-disc pl-4 text-md">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                            </ul>                            
+                        </div>
+                        <img src="https://picsum.photos/500/300?random=6" alt="" class="rounded-lg justify-self-end shadow-xl">
+                    </div>
+                    <div class="swiper-slide text-center bg-yellow-300 grid grid-cols-2 px-40 py-20 gap-5">
+                        <div class="text-justify flex flex-col justify-around">
+                            <h3 class="text-5xl mb-5 text-white">Yellowfin Tuna</h3>
+                            <p class="mb-10 text-xl text-gray-800"">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vitae. Placeat, tempore.</p>
+                            <p class="font-bold text-lg">CHARACTERISTICS:</p>
+                            <ul class="list-disc pl-4 text-md">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                            </ul>                            
+                        </div>
+                        <img src="https://picsum.photos/500/300?random=5" alt="" class="rounded-lg justify-self-end shadow-xl">
+                    </div>
+                </div>     
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev "></div>
+                <div class="swiper-button-next "></div>
+        </div>
+    </section>
+
+    <!-- Our Location -->
+    <section class="bg-gradient-to-b from-gray-100 to-gray-200 pt-44">
+        <div class="grid page-margin">
+            <div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.240682444349!2d107.63308375076956!3d-6.861732769016885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e77f69edf551%3A0x14c495539fc36585!2seFishery%20Technoplex!5e0!3m2!1sid!2sid!4v1640700463215!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!--Swiper JS-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+</script>
+</body>
+</html>
