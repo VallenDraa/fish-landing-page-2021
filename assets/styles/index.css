@@ -14,6 +14,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.patua{
+    font-family: 'Patua One', cursive;
+}
+
 /* header */
 header p{
     /* font-family: 'Source Sans Pro', sans-serif */
@@ -51,6 +55,9 @@ h1,h3,h4,h5{
     position:static;
 }
 
+.menu{
+    transform: translate(620px);
+}
 
 /* swiper css */
 .swiper{
@@ -73,7 +80,6 @@ h1,h3,h4,h5{
         padding: 0.3rem 0;
     }
 }
-
 @media (min-width: 1280px) {
     .fa-bars{
         display: none !important;
@@ -105,10 +111,22 @@ h1,h3,h4,h5{
     .header-menu>a:hover{
         color: black;
     }
+    .menu{
+        transform: translate(0);
+    }
 }
-
 @media (min-height: 640px) {
     .disable-fixed-sm{
         position:fixed;
+    }
+}
+@media (max-width: 1024px){
+    .menu{
+        transform: translate(480px);
+    }
+}
+@media (max-width: 640px){
+    .menu{
+        transform: translate(300px);
     }
 }
