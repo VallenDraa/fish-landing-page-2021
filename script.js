@@ -11,6 +11,47 @@ x.addEventListener("click", function(){
 })
 
 
+// scroll eventlistener
+const navbar = document.querySelector(".navbar")
+const backTopBtn = document.querySelector(".back-top-btn")
+
+window.addEventListener("scroll", function(){
+    let scrolled = window.scrollY;
+    // navbar shadow
+    if(scrolled >= 25){
+        navbar.classList.add("shadow-lg")
+    }
+    else{
+        navbar.classList.remove("shadow-lg")
+    }
+
+    // back to top button
+    if(scrolled > 550){
+        backTopBtn.style.right = "1rem"
+    }
+    else{
+        backTopBtn.style.right = "-5rem"
+    }
+
+})
+
+// // change cursor for selection Swiper
+// const slider = document.querySelector(".cursor-change")
+
+// slider.addEventListener("mousedown", function(){
+//     slider.style.cursor = "pointer"
+// })
+// slider.addEventListener("mouseup", function(){
+//     slider.style.cursor = "grab"
+// })
+// slider.addEventListener("release", function(){
+//     slider.classList.add("cursor-grab")
+//     slider.classList.remove("cursor-grabbing")
+// })
+
+
+
+
 // add new choices of the week
 
 // const choices = {

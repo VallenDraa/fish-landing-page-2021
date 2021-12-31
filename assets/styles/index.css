@@ -2,20 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* custom utility function */
-.page-margin{
-    margin: 0 4rem;
+html{
+    scroll-behavior: smooth;
 }
-.page-padding{
-    padding: 1rem 4rem;
-}
-
 *{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* custom utility function */
+.max-width-2000px{
+    max-width: 2000px;
+    margin: auto;
+}
+
 .patua{
     font-family: 'Patua One', cursive;
+}
+
+
+/* back to top btn */
+@keyframes reveal {
+    from{opacity: 0; transform: translateY(-30px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+@keyframes hide {
+    from{opacity: 1; transform: translateY(0);}
+    to{opacity: 0; transform: translateY(-30px);}
 }
 
 /* header */
@@ -75,7 +87,7 @@ h1,h3,h4,h5{
 @media (min-width: 640px){
     .header-menu{
         margin-right: 0;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
         padding: 0.3rem 0;
     }
